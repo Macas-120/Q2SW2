@@ -1,0 +1,32 @@
+.content {
+	padding: 20px;
+	background-color: royalblue;
+
+}
+
+body {
+	background-image: url("tech.jpg");
+	background-repeat: no-repeat;
+	background-size: 5000px;
+}
+
+.header {
+	background-color: royalblue;
+}
+
+.btn {
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 0.5em 1em;
+	color: var(--clr-accent);
+	background-color: var(--clr-rgba);
+	border: 10px solid var(--clr-accent);
+	border-radius: 5px;
+	transition: all 0.3s;
+}
+
+.bnt: hover {
+	transform: translateY(-10px);
+	background-color: var(--clr-accent);
+	color: var(--clr-accent);
+}
